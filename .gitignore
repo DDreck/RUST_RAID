@@ -1,0 +1,21 @@
+# Secrets / config
+*.env
+rustbot.env
+
+# Telegram session files
+*.session
+*.session-journal
+
+# Claude internal files
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
